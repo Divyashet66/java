@@ -21,9 +21,9 @@
 
         
 
-        <sonar.host.url>http://35.200.204.102:9000</sonar.host.url>
+        <sonar.host.url>http://34.93.209.167:9000/</sonar.host.url>
 
-        <sonar.projectKey>network-spring</sonar.projectKey>
+        <sonar.projectKey>microservice-java</sonar.projectKey>
 
         <sonar.login>admin</sonar.login>
 
