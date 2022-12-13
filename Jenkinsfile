@@ -46,7 +46,7 @@ pipeline {
 
                     sh "mvn test -Dtest=TestControllerTests  -DfailIfNoTests=false"
 
-                    sh "mvn clean install sonar:sonar -Dsonar.login=admin -Dsonar.password=sonar" 
+                    sh "mvn clean install sonar:sonar -Dsonar.login=sqp_96d6e22e6ed639dcd11ec346f745e1db958b54e2 -Dsonar.host.url=http://34.93.209.167:9000"
 
                 }
 
